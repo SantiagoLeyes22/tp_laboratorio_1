@@ -3,10 +3,14 @@
 #include <stdlib.h>
 #include <string.h>
 
-int menu(int num1,int num2)
+int menu(int num1,int num2,int flagNum1,int flagNum2)
 {
     int opcion;
-
+    if(flagNum1 != 1 && flagNum2 !=1)
+    {
+        num1 = 0;
+        num2 = 0;
+    }
     system("cls");
     printf("******Calculadora******\n\n");
     printf("1-Ingresar 1er operando(A=%d)\n",num1);

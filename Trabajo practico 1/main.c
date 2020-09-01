@@ -6,13 +6,13 @@ int main()
 {
     char seguir = 's';
     char confirmar;
-    int num1 = 0;
-    int num2 = 0;
+    int num1;
+    int num2;
     int flagNum1;
     int flagNum2;
     int operacionesTerminadas;
     do{
-    switch(menu(num1,num2))
+    switch(menu(num1,num2,flagNum1,flagNum2))
     {
     case 1:
         printf("Ingrese primer operando:");

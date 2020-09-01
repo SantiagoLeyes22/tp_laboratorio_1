@@ -4,7 +4,7 @@
  * \return int Se obtiene la opcion solicitada
  *
  */
-int menu(int num1,int num2);
+int menu(int num1,int num2,int flagNum1,int flagNum2);
 void mostrarOperaciones(int num1,int num2);
 /** \brief Multiplica dos numeros
  *
