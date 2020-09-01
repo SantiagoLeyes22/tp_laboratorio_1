@@ -34,7 +34,6 @@ int main()
     case 3:
         if(flagNum2 == 1)
         {
-            //subMenu(num1,num2);
             printf("La operaciones fueron exitosamente realizadas,precione la opcion cuatro para saber resultados\n");
             operacionesTerminadas = 1;
             system("pause");

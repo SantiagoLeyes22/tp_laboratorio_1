@@ -71,21 +71,21 @@ void mostrarOperaciones(int num1,int num2)
         printf("No se puede dividir por 0\n");
     }
     printf("El resultado de %d * %d es: %d\n",num1,num2,multiplicacion(num1,num2));
-    printf("El factorial de %d es: %f y El factorial de %d es: %f\n",num1,factorialUno(num1),num2,factorialDos(num2));
+    printf("El factorial de %d es: %ld y El factorial de %d es: %ld\n",num1,factorialUno(num1),num2,factorialDos(num2));
     system("pause");
 }
-double factorialUno(int num1)
+long int factorialUno(int num1)
 {
-    double Resultado = 1;
+    long long int Resultado = 1;
     while(num1 > 1) {
        Resultado *= num1;
        num1--;
     }
     return Resultado;
 }
-double factorialDos(int num2)
+long int factorialDos(int num2)
 {
-    double ResultadoDos = 1;
+    long long int ResultadoDos = 1;
     while(num2 > 1) {
        ResultadoDos *= num2;
        num2--;

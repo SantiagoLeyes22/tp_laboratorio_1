@@ -39,6 +39,6 @@ int resta(int num1,int num2);
  *
  */
 int suma(int num1,int num2);
-double factorialUno(int num1);
-double factorialDos(int num2);
+long int factorialUno(int num1);
+long int factorialDos(int num2);
 
