@@ -4,8 +4,8 @@
  * \return int Se obtiene la opcion solicitada
  *
  */
-int menu(int num1,int num2,int flagNum1,int flagNum2);
-void mostrarOperaciones(int num1,int num2);
+int menu(float num1,float num2,int flagNum1,int flagNum2);
+void mostrarOperaciones(float num1,float num2);
 /** \brief Multiplica dos numeros
  *
  * \param int numero1 Primer factor
@@ -13,7 +13,7 @@ void mostrarOperaciones(int num1,int num2);
  * \return int Se obtiene la multiplicacion de ambos factores
  *
  */
-int multiplicacion(int num1,int num2);
+float multiplicacion(float num1,float num2);
 /** \brief Divide dos numeros
  *
  * \param int numero1  Es el dividendo
@@ -22,7 +22,7 @@ int multiplicacion(int num1,int num2);
  * \return float Se obtiene el resultado de la division
  * La funcion no valida si el divisor es 0
  */
-float division(int num1,int num2);
+float division(float num1,float num2);
 /** \brief Resta dos numeros
  *
  * \param int numero1 El minuendo
@@ -30,7 +30,7 @@ float division(int num1,int num2);
  * \return int Se obtiene la diferencia
  *
  */
-int resta(int num1,int num2);
+float resta(float num1,float num2);
 /** \brief Suma dos numeros
  *
  * \param int numero1 El primer sumando
@@ -38,7 +38,7 @@ int resta(int num1,int num2);
  * \return int La suma de los numeros ingresados
  *
  */
-int suma(int num1,int num2);
-long int factorialUno(int num1);
-long int factorialDos(int num2);
+float suma(float num1,float num2);
+long int factorialUno(float num1);
+long int factorialDos(float num2);
 

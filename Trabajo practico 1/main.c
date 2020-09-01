@@ -6,8 +6,8 @@ int main()
 {
     char seguir = 's';
     char confirmar;
-    int num1;
-    int num2;
+    float num1;
+    float num2;
     int flagNum1;
     int flagNum2;
     int operacionesTerminadas;
@@ -16,14 +16,14 @@ int main()
     {
     case 1:
         printf("Ingrese primer operando:");
-        scanf("%d",&num1);
+        scanf("%f",&num1);
         flagNum1 = 1;
         break;
     case 2:
         if(flagNum1 == 1)
         {
             printf("Ingrese segundo operando:");
-            scanf("%d",&num2);
+            scanf("%f",&num2);
             flagNum2 = 1;
         }
         else{
@@ -34,7 +34,7 @@ int main()
     case 3:
         if(flagNum2 == 1)
         {
-            printf("La operaciones fueron exitosamente realizadas,precione la opcion cuatro para saber resultados\n");
+            printf("La operaciones fueron exitosamente realizadas,utilize la opcion cuatro para saber resultados\n");
             operacionesTerminadas = 1;
             system("pause");
         }
