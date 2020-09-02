@@ -20,6 +20,7 @@ int menu(float num1,float num2,int flagNum1,int flagNum2)
     printf("b)Calcular la resta de %.2f - %.2f:\n",num1,num2);
     printf("c)Calcular la division de %.2f / %.2f:\n",num1,num2);
     printf("d)Calcular la multiplicacion de %.2f * %.2f:\n",num1,num2);
+    printf("e)Calcular el factorial de %d y el de %d\n",(int)num1,(int)num2);
     printf("4-Informar resultados\n");
     printf("5-Salir\n\n");
     printf("Ingrese opcion: ");
@@ -71,10 +72,10 @@ void mostrarOperaciones(float num1,float num2)
         printf("No se puede dividir por 0\n");
     }
     printf("El resultado de %.2f * %.2f es: %.2f\n",num1,num2,multiplicacion(num1,num2));
-    printf("El factorial de %.2f es: %ld y El factorial de %.2f es: %ld\n",num1,factorialUno(num1),num2,factorialDos(num2));
+    printf("El factorial de %d es: %ld y El factorial de %d es: %ld\n",(int)num1,factorialUno(num1),(int)num2,factorialDos(num2));
     system("pause");
 }
-//ARREGLAR FACTORIALES.
+
 long int factorialUno(float num1)
 {
     long long int Resultado = 1;
