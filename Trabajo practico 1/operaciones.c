@@ -72,27 +72,46 @@ void mostrarOperaciones(float num1,float num2)
         printf("No se puede dividir por 0\n");
     }
     printf("El resultado de %.2f * %.2f es: %.2f\n",num1,num2,multiplicacion(num1,num2));
-    printf("El factorial de %d es: %ld y El factorial de %d es: %ld\n",(int)num1,factorialUno(num1),(int)num2,factorialDos(num2));
+    if(num1 >=1)
+    {
+        printf("El factorial de %d es:%ld\n",(int)num1,factorialUno(num1));
+    }
+    else{
+        printf("Para obtener el primer factoria el primer numero debe ser mayor o igual a uno\n");
+    }
+    if(num2>=1)
+    {
+        printf("El factorial de %d es:%ld\n",(int)num2,factorialDos(num2));
+    }
+    else{
+        printf("Para obtener el segundo factorial el segundo numero debe ser mayor o igual a uno\n");
+    }
     system("pause");
 }
 
 long int factorialUno(float num1)
 {
-    long long int Resultado = 1;
+    long int Resultado = 1;
     int numeroUno = (int)num1;
-    while(numeroUno > 1) {
-       Resultado *= numeroUno;
-       numeroUno--;
+    if(numeroUno>=1)
+    {
+        while(numeroUno > 1) {
+           Resultado *= numeroUno;
+           numeroUno--;
+        }
     }
     return Resultado;
 }
 long int factorialDos(float num2)
 {
-    long long int ResultadoDos = 1;
+    long int ResultadoDos = 1;
     int numeroDos = (int)num2;
-    while(numeroDos > 1) {
-       ResultadoDos *= numeroDos;
-       numeroDos--;
+    if(numeroDos>=1)
+    {
+         while(numeroDos > 1) {
+           ResultadoDos *= numeroDos;
+           numeroDos--;
+        }
     }
     return ResultadoDos;
 }

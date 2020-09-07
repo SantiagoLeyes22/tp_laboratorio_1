@@ -54,7 +54,7 @@ int main()
         }
         break;
     case 5:
-        printf("Esta seguro que quiere salir?");
+        printf("¿Esta seguro que quiere salir?");
         fflush(stdin);
         scanf("%c",&confirmar);
         if(confirmar == 's')

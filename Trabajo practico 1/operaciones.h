@@ -39,6 +39,18 @@ float resta(float num1,float num2);
  *
  */
 float suma(float num1,float num2);
+/** \brief Calcula el factorial de un numero
+ *
+ * \param num1 float
+ * \return long int
+ *
+ */
 long int factorialUno(float num1);
+/** \brief Calcula el factorial de un numero
+ *
+ * \param num2 float
+ * \return long int
+ *
+ */
 long int factorialDos(float num2);
 
