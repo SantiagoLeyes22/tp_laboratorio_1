@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <string.h>
 int main()
 {
     char seguir = 's';
@@ -16,14 +17,14 @@ int main()
     {
     case 1:
         printf("Ingrese primer operando:");
-        scanf("%f",&num1);
+        num1 = pedirNumero();
         flagNum1 = 1;
         break;
     case 2:
         if(flagNum1 == 1)
         {
             printf("Ingrese segundo operando:");
-            scanf("%f",&num2);
+            num2 = pedirNumero();
             flagNum2 = 1;
         }
         else{

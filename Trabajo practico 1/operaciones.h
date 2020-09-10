@@ -53,4 +53,5 @@ long int factorialUno(float num1);
  *
  */
 long int factorialDos(float num2);
-
+float pedirNumero();
+int validarNumeros(char numero[]);

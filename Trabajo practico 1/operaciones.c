@@ -2,7 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
+#include <string.h>
+#include <ctype.h>
+#include <conio.h>
 int menu(float num1,float num2,int flagNum1,int flagNum2)
 {
     int opcion;
@@ -114,4 +116,31 @@ long int factorialDos(float num2)
         }
     }
     return ResultadoDos;
+}
+int validarNumeros(char numero[])
+{
+    int i;
+    for(i=0; i<strlen(numero);i++)
+    {
+        if(!(isdigit(numero[i]))&&!(numero[i]=='.'))
+        {
+            printf("Eso no es un numero, reingrese numero:");
+            getch();
+            return 0;
+        }
+    }
+    return 1;
+}
+float pedirNumero()
+{
+    char numero[10];
+    float num;
+    int N;
+    do{
+        scanf("%s",numero);
+        N = validarNumeros(numero);
+    }while(N==0);
+    num = atof(numero);
+
+    return num;
 }

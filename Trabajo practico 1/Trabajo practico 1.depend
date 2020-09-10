@@ -1,15 +1,19 @@
 # depslib dependency file v1.0
-1599050235 source:d:\universidad\programacion 1\trabajos practicos\tp1\trabajo practico 1\main.c
+1599714197 source:d:\universidad\programacion 1\trabajos practicos\tp1\trabajo practico 1\main.c
 	"operaciones.h"
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
+	<string.h>
 
-1599050241 d:\universidad\programacion 1\trabajos practicos\tp1\trabajo practico 1\operaciones.h
+1599713797 d:\universidad\programacion 1\trabajos practicos\tp1\trabajo practico 1\operaciones.h
 
-1599444553 source:d:\universidad\programacion 1\trabajos practicos\tp1\trabajo practico 1\operaciones.c
+1599743453 source:d:\universidad\programacion 1\trabajos practicos\tp1\trabajo practico 1\operaciones.c
 	"operaciones.h"
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
 
