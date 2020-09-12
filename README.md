@@ -1,2 +1,2 @@
-Abrir Trabajo practico 1.cbp
+Abrir Trabajo practico 1.cbp\n
 Trabajo realizado en Windows 
