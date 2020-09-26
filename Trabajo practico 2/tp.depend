@@ -1,0 +1,101 @@
+# depslib dependency file v1.0
+1600622125 source:c:\users\leono\documents\proyectos code\tp 2\tp\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayEmployees.h"
+	"validaciones.h"
+
+1600654502 c:\users\leono\documents\proyectos code\tp 2\tp\arrayemployees.h
+
+1600575345 c:\users\leono\documents\proyectos code\tp 2\tp\validaciones.h
+
+1600654585 source:c:\users\leono\documents\proyectos code\tp 2\tp\validaciones.c
+	"validaciones.h"
+	"ArrayEmployees.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1600654741 source:c:\users\leono\documents\proyectos code\tp 2\tp\arrayemployees.c
+	"validaciones.h"
+	"ArrayEmployees.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1600904581 source:d:\universidad\programacion 1\trabajos practicos\tp 2\tp\arrayemployees.c
+	"validaciones.h"
+	"ArrayEmployees.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1600655012 d:\universidad\programacion 1\trabajos practicos\tp 2\tp\validaciones.h
+
+1600731397 d:\universidad\programacion 1\trabajos practicos\tp 2\tp\arrayemployees.h
+
+1600715053 source:d:\universidad\programacion 1\trabajos practicos\tp 2\tp\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayEmployees.h"
+	"validaciones.h"
+
+1600655012 source:d:\universidad\programacion 1\trabajos practicos\tp 2\tp\validaciones.c
+	"validaciones.h"
+	"ArrayEmployees.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1600905672 source:d:\universidad\programacion 1\trabajos practicos\tp 2\trabajo practico 2\arrayemployees.c
+	"validaciones.h"
+	"ArrayEmployees.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1600655012 d:\universidad\programacion 1\trabajos practicos\tp 2\trabajo practico 2\validaciones.h
+
+1600731397 d:\universidad\programacion 1\trabajos practicos\tp 2\trabajo practico 2\arrayemployees.h
+
+1600715053 source:d:\universidad\programacion 1\trabajos practicos\tp 2\trabajo practico 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayEmployees.h"
+	"validaciones.h"
+
+1600905683 source:d:\universidad\programacion 1\trabajos practicos\tp 2\trabajo practico 2\validaciones.c
+	"validaciones.h"
+	"ArrayEmployees.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1601038705 source:c:\users\leono\documents\trabajo practico 2\arrayemployees.c
+	"validaciones.h"
+	"ArrayEmployees.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1601038705 c:\users\leono\documents\trabajo practico 2\validaciones.h
+
+1601038705 c:\users\leono\documents\trabajo practico 2\arrayemployees.h
+
+1601038705 source:c:\users\leono\documents\trabajo practico 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayEmployees.h"
+	"validaciones.h"
+
+1601038705 source:c:\users\leono\documents\trabajo practico 2\validaciones.c
+	"validaciones.h"
+	"ArrayEmployees.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
