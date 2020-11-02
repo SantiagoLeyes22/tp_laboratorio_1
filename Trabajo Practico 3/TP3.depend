@@ -1,0 +1,169 @@
+# depslib dependency file v1.0
+1533062952 source:/home/mauro/Descargas/Practica_Pair_v1.2/Linux_64/Employee.c
+
+1533063050 source:/home/mauro/Descargas/Practica_Pair_v1.2/Linux_64/main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1532354323 /home/mauro/Descargas/Practica_Pair_v1.2/Linux_64/LinkedList.h
+
+1533062926 /home/mauro/Descargas/Practica_Pair_v1.2/Linux_64/Employee.h
+
+1533063080 source:/home/mauro/Descargas/Practica_Pair_v1.2/Linux_64/parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1533062952 source:/home/mauro/Descargas/TP3/Linux_64/Employee.c
+
+1533066103 source:/home/mauro/Descargas/TP3/Linux_64/main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1532354323 /home/mauro/Descargas/TP3/Linux_64/LinkedList.h
+
+1533066103 /home/mauro/Descargas/TP3/Linux_64/Employee.h
+
+1533063080 source:/home/mauro/Descargas/TP3/Linux_64/parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1533145792 source:/home/mauro/Descargas/TP3-20180801T173619Z-001/TP3/Linux_64/Controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1533118898 /home/mauro/Descargas/TP3-20180801T173619Z-001/TP3/Linux_64/LinkedList.h
+
+1533118898 /home/mauro/Descargas/TP3-20180801T173619Z-001/TP3/Linux_64/Employee.h
+
+1533118898 source:/home/mauro/Descargas/TP3-20180801T173619Z-001/TP3/Linux_64/Employee.c
+
+1533145890 source:/home/mauro/Descargas/TP3-20180801T173619Z-001/TP3/Linux_64/parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1604354740 source:d:\universidad\programacion 1\trabajos practicos\tp3 cascara\win_32\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+	"get.h"
+	"menus.h"
+	"Controller.h"
+
+1604317478 d:\universidad\programacion 1\trabajos practicos\tp3 cascara\win_32\linkedlist.h
+
+1604202798 d:\universidad\programacion 1\trabajos practicos\tp3 cascara\win_32\employee.h
+
+1604203860 source:d:\universidad\programacion 1\trabajos practicos\tp3 cascara\win_32\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Employee.h"
+
+1604268143 source:d:\universidad\programacion 1\trabajos practicos\tp3 cascara\win_32\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"menus.h"
+
+1604090114 d:\universidad\programacion 1\trabajos practicos\tp3 cascara\win_32\controller.h
+
+1604355230 source:d:\universidad\programacion 1\trabajos practicos\tp3 cascara\win_32\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1603808306 d:\universidad\programacion 1\trabajos practicos\tp3 cascara\win_32\parser.h
+
+1604204492 source:d:\universidad\programacion 1\trabajos practicos\tp3 cascara\win_32\get.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"get.h"
+
+1604114648 d:\universidad\programacion 1\trabajos practicos\tp3 cascara\win_32\get.h
+
+1604354805 source:d:\universidad\programacion 1\trabajos practicos\tp3 cascara\win_32\menus.c
+	<stdio.h>
+	<stdlib.h>
+	"menus.h"
+	"get.h"
+	"LinkedList.h"
+	"Controller.h"
+
+1604268266 d:\universidad\programacion 1\trabajos practicos\tp3 cascara\win_32\menus.h
+
+1604354740 source:e:\carpeta compartida\trabajo practico 3\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+	"get.h"
+	"menus.h"
+	"Controller.h"
+
+1604317478 e:\carpeta compartida\trabajo practico 3\linkedlist.h
+
+1604202798 e:\carpeta compartida\trabajo practico 3\employee.h
+
+1603808306 e:\carpeta compartida\trabajo practico 3\parser.h
+
+1604114648 e:\carpeta compartida\trabajo practico 3\get.h
+
+1604268266 e:\carpeta compartida\trabajo practico 3\menus.h
+
+1604090114 e:\carpeta compartida\trabajo practico 3\controller.h
+
+1604203860 source:e:\carpeta compartida\trabajo practico 3\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Employee.h"
+
+1604204492 source:e:\carpeta compartida\trabajo practico 3\get.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"get.h"
+
+1604268143 source:e:\carpeta compartida\trabajo practico 3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"menus.h"
+
+1604354805 source:e:\carpeta compartida\trabajo practico 3\menus.c
+	<stdio.h>
+	<stdlib.h>
+	"menus.h"
+	"get.h"
+	"LinkedList.h"
+	"Controller.h"
+
+1604355230 source:e:\carpeta compartida\trabajo practico 3\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
