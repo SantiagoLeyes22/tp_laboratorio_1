@@ -38,42 +38,30 @@ int controller_loadFromBinary(char* path ,LinkedList* pArrayListEmployee)
 }
 int controller_addEmployee(LinkedList* pArrayListEmployee)
 {
+    system("cls");
+    printf("ALTA DE EMPLEADOS:\n\n");
     int estado = 0;
     Employee* nuevoEmpleado = employee_new();
     char idAux[50],nombreAux[50],horasTrabajadasAux[50],sueldoAux[50];
     int horasTrabajadas;
     int sueldo;
     int auxId;
-    int i;
     int len = ll_len(pArrayListEmployee);
 
     if(pArrayListEmployee !=NULL)
     {
-        auxId = getInt("Ingrese el id del nuevo empleado:");
+        auxId = len + 1;
         itoa(auxId,idAux,10);
-        for(i=0;i<len;i++)
-        {
-            nuevoEmpleado = (Employee*)ll_get(pArrayListEmployee,i);
-            if(nuevoEmpleado->id == auxId)
-            {
-                printf("Ese id ya esta en uso...\n");
-                estado = -1;
-                break;
-            }
-        }
-        if(nuevoEmpleado->id != auxId)
-        {
-            getString("Ingrese nombre:",nombreAux);
-            horasTrabajadas = getInt("Ingrese el numero de horas trabajadas:");
-            sueldo = getInt("Ingrese sueldo:");
+        getString("Ingrese nombre:",nombreAux);
+        horasTrabajadas = getInt("Ingrese el numero de horas trabajadas:");
+        sueldo = getInt("Ingrese sueldo:");
 
-            itoa(horasTrabajadas,horasTrabajadasAux,10);
-            itoa(sueldo,sueldoAux,10);
+        itoa(horasTrabajadas,horasTrabajadasAux,10);
+        itoa(sueldo,sueldoAux,10);
 
-            nuevoEmpleado = employee_newParametros(idAux,nombreAux,horasTrabajadasAux,sueldoAux);
-            ll_add(pArrayListEmployee,nuevoEmpleado);
-            estado = 1;
-        }
+        nuevoEmpleado = employee_newParametros(idAux,nombreAux,horasTrabajadasAux,sueldoAux);
+        ll_add(pArrayListEmployee,nuevoEmpleado);
+        estado = 1;
     }
     return estado;
 }
@@ -142,30 +130,42 @@ int controller_editEmployee(LinkedList* pArrayListEmployee)
 int controller_removeEmployee(LinkedList* pArrayListEmployee)
 {
     int estado = 0;
+    char respuesta;
     Employee* auxEmpleado;
-    int i,idAux;
+    int i;
+    int idAux;
     int len = ll_len(pArrayListEmployee);
 
     if(pArrayListEmployee !=NULL)
     {
+        controller_ListEmployee(pArrayListEmployee);
         idAux = getInt("Ingrese el id del empleado que desea eliminar:");
+        system("cls");
         for(i=0;i<len;i++)
         {
             auxEmpleado = (Employee*)ll_get(pArrayListEmployee,i);
-            if(auxEmpleado->id == idAux)
+            if(idAux==auxEmpleado->id)
             {
-                ll_remove(pArrayListEmployee,i);
-                printf("El empleado fue borrado con exito\n");
-                employee_delete(auxEmpleado);
-                break;
+                respuesta = getChar("Esta seguro que desea eliminar el empleado? presione 's' para confirmar o 'n' para cancelar:");
+                if(respuesta == 's')
+                {
+                    ll_remove(pArrayListEmployee,i);
+                    printf("El empleado fue borrado con exito\n");
+                    employee_delete(auxEmpleado);
+                    estado = 1;
+                    break;
+                }
+                else{
+                    printf("Baja de empleado cancelada\n");
+                }
             }
         }
-        if(auxEmpleado->id != idAux)
+        if(estado == 0)
         {
             printf("El id ingresado no existe\n");
         }
     }
-    return estado;
+    return 0;
 }
 int controller_ListEmployee(LinkedList* pArrayListEmployee)
 {
