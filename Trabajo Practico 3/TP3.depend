@@ -110,7 +110,7 @@
 
 1604268266 d:\universidad\programacion 1\trabajos practicos\tp3 cascara\win_32\menus.h
 
-1604417971 source:e:\carpeta compartida\trabajo practico 3\controller.c
+1604440702 source:e:\carpeta compartida\trabajo practico 3\controller.c
 	<stdio.h>
 	<stdlib.h>
 	"LinkedList.h"
@@ -162,63 +162,6 @@
 	"Controller.h"
 
 1604355230 source:e:\carpeta compartida\trabajo practico 3\parser.c
-	<stdio.h>
-	<stdlib.h>
-	"LinkedList.h"
-	"Employee.h"
-
-1604418100 source:c:\users\leono\downloads\tp_laboratorio_1-master\trabajo practico 3\controller.c
-	<stdio.h>
-	<stdlib.h>
-	"LinkedList.h"
-	"Employee.h"
-	"parser.h"
-	"get.h"
-	"menus.h"
-	"Controller.h"
-
-1604418100 c:\users\leono\downloads\tp_laboratorio_1-master\trabajo practico 3\linkedlist.h
-
-1604418100 c:\users\leono\downloads\tp_laboratorio_1-master\trabajo practico 3\employee.h
-
-1604418100 c:\users\leono\downloads\tp_laboratorio_1-master\trabajo practico 3\parser.h
-
-1604418100 c:\users\leono\downloads\tp_laboratorio_1-master\trabajo practico 3\get.h
-
-1604418100 c:\users\leono\downloads\tp_laboratorio_1-master\trabajo practico 3\menus.h
-
-1604418100 c:\users\leono\downloads\tp_laboratorio_1-master\trabajo practico 3\controller.h
-
-1604418100 source:c:\users\leono\downloads\tp_laboratorio_1-master\trabajo practico 3\employee.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"Employee.h"
-
-1604418100 source:c:\users\leono\downloads\tp_laboratorio_1-master\trabajo practico 3\get.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	<conio.h>
-	"get.h"
-
-1604418100 source:c:\users\leono\downloads\tp_laboratorio_1-master\trabajo practico 3\main.c
-	<stdio.h>
-	<stdlib.h>
-	"LinkedList.h"
-	"Controller.h"
-	"Employee.h"
-	"menus.h"
-
-1604418100 source:c:\users\leono\downloads\tp_laboratorio_1-master\trabajo practico 3\menus.c
-	<stdio.h>
-	<stdlib.h>
-	"menus.h"
-	"get.h"
-	"LinkedList.h"
-	"Controller.h"
-
-1604418100 source:c:\users\leono\downloads\tp_laboratorio_1-master\trabajo practico 3\parser.c
 	<stdio.h>
 	<stdlib.h>
 	"LinkedList.h"
