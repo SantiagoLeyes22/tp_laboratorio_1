@@ -157,6 +157,7 @@ int controller_removeEmployee(LinkedList* pArrayListEmployee)
                 }
                 else{
                     printf("Baja de empleado cancelada\n");
+                    estado = 1;
                 }
             }
         }
