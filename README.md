@@ -1,4 +1,6 @@
 Abrir Trabajo practico 1.cbp.
 ---------------------------
 
-Trabajo realizado en Windows 
+Trabajos realizados en Windows 
+Use codeBlocks 
+
