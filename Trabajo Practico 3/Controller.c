@@ -98,15 +98,15 @@ int controller_editEmployee(LinkedList* pArrayListEmployee)
                     switch(option)
                     {
                     case 1:
-                        getString("Ingrese nuevo nombre \n", nombreAux);
+                        getString("Ingrese nuevo nombre:", nombreAux);
                         employee_setNombre(auxEmpleado, nombreAux);
                         break;
                     case 2:
-                        horasTrabajadas = getInt("ingrese cantidad de horas trabajadas\n");
+                        horasTrabajadas = getInt("ingrese cantidad de horas trabajadas:");
                         employee_setHorasTrabajadas(auxEmpleado,horasTrabajadas);
                         break;
                     case 3:
-                        sueldo = getInt("ingrese nuevo sueldo \n");
+                        sueldo = getInt("ingrese nuevo sueldo:");
                         employee_setSueldo(auxEmpleado,sueldo);
                         break;
                     case 4:
